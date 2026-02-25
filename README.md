@@ -49,3 +49,17 @@ cmake --build build --config Release
 ## Примечания
 - При отсутствии `config/presets.json` приложение создаст файл с дефолтными пресетами.
 - UI-каркас готов к расширению (дополнительные окна, загрузка реальных превью, пресет-менеджер и т.д.).
+
+## Открытие в Visual Studio
+
+### Вариант 1: через CMake Presets (генерация `.sln`)
+```powershell
+cmake --preset vs2022-release
+```
+
+После генерации откройте решение:
+- `build/vs2022-release/skin_studio.sln`
+
+### Вариант 2: Open Folder (без ручной генерации)
+В Visual Studio 2022 выберите **File → Open → Folder...** и укажите корень проекта с `CMakeLists.txt`.
+Visual Studio автоматически подхватит CMake-проект и выполнит конфигурацию без ручного запуска `cmake -S/-B`.
