@@ -1,0 +1,26 @@
+{
+  "skins": [
+    {
+      "id": "ak47_redline",
+      "name": "AK-47 | Redline",
+      "weapon": "AK-47",
+      "rarity": "Classified",
+      "wear": 0.12,
+      "statTrak": true,
+      "seed": 101,
+      "notes": "Starter preset",
+      "preview": "assets/preview_placeholder.txt"
+    },
+    {
+      "id": "m4a4_howl",
+      "name": "M4A4 | Howl",
+      "weapon": "M4A4",
+      "rarity": "Contraband",
+      "wear": 0.03,
+      "statTrak": false,
+      "seed": 777,
+      "notes": "Use sparingly",
+      "preview": "assets/preview_placeholder.txt"
+    }
+  ]
+}
